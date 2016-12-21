@@ -1,0 +1,58 @@
+
+() = list of feed ids
+
+PUT CURSOR OVER EACH LINE AT A TIME!!!!
+
+delete from refreshrate where arcid in ();
+DELETE FROM subscriptions WHERE fid IN ();
+delete from linkstobeindexed where arcid in ();
+DELETE FROM linkstokeywords WHERE linkid IN (select id from links where pageid in ());
+delete from links where pageid in ();
+DELETE FROM hub WHERE id IN ();
+
+
+# too add
+
+
+
+
+# insert query
+
+INSERT INTO hub (name,url,rssurl,rsstype) VALUES
+('xxxxxx','xxxxxx','xxxxxx',xxxxxx)
+
+INSERT INTO refreshrate (arcid) VALUES
+(xxxxxx)
+
+
+# sources of sites
+
+top sites on Hacker News
+
+
+-------
+plan
+
+add a hidden column to hub to stop their posts from being shown to anyone
+
+add an admin form for adding sites
+
+add a system for adding rss feeds with a default as hidden
+
+? with each link that links to a seperate feed add a subscribe prompt after viewing
+
+? make programme to get top sites from different aggregate sites
+
+======
+types of content,
+
+lets play, more like a show ones can have specific topics but are all in a row rarely read by randomers
+
+blog post, often not all read in a row and read by randomers
+
+lets play's and many YouTube shows grow an audience connection encouraging repeate viewing
+
+
+--------------------------------
+focus on how to find great sites
+--------------------------------

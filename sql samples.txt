@@ -1,0 +1,64 @@
+
+# delete duplicate links
+
+DELETE
+FROM linkstokeywords
+WHERE linkid IN (
+SELECT id FROM (
+  SELECT id,
+  ROW_NUMBER() OVER(PARTITION BY url ORDER BY id ASC) AS ROW
+  FROM links
+) dups
+WHERE
+dups.Row > 1
+)
+
+DELETE
+FROM history
+WHERE linkid IN (
+SELECT id FROM (
+  SELECT id,
+  ROW_NUMBER() OVER(PARTITION BY url ORDER BY id ASC) AS ROW
+  FROM links
+) dups
+WHERE
+dups.Row > 1
+)
+
+DELETE
+FROM responces
+WHERE linkid IN (
+SELECT id FROM (
+  SELECT id,
+  ROW_NUMBER() OVER(PARTITION BY url ORDER BY id ASC) AS ROW
+  FROM links
+) dups
+WHERE
+dups.Row > 1
+)
+
+DELETE
+FROM favourites
+WHERE linkid IN (
+SELECT id FROM (
+  SELECT id,
+  ROW_NUMBER() OVER(PARTITION BY url ORDER BY id ASC) AS ROW
+  FROM links
+) dups
+WHERE
+dups.Row > 1
+)
+
+DELETE
+FROM links
+WHERE id IN (
+SELECT id FROM (
+  SELECT id,
+  ROW_NUMBER() OVER(PARTITION BY url ORDER BY id ASC) AS ROW
+  FROM links
+) dups
+WHERE
+dups.Row > 1
+)
+
+###

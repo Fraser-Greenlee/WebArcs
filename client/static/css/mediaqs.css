@@ -1,0 +1,125 @@
+@media (max-width: 740px) and (min-width: 390px) {
+    div#side {
+    }
+    body .mainWidth {
+        width: calc(100% - 30px) !important;
+    }
+}
+@media (min-width: 390px) {
+    .postsbar .postpicbox {
+        height: 67px;
+        top: -63px;
+    }
+    .postsbar .boxview h2 {
+        font-size: 14px;
+        max-height: 76px;
+    }
+	body .postsbar .boxview .snipet {
+		font-size: 14px;
+		margin-top: 21px;
+		height: 38px;
+		margin-bottom: -5px;
+	}
+}
+@media (min-width: 740px) {
+    body .multibar.postbox.col_3 {
+        width: calc(25% - 1px);
+    }
+}
+@media (min-width: 660px) {
+    div#headoptions {
+        /* width: calc(100% - 496px); */
+        min-width: 150px;
+    }
+    div#logo {
+        /* display: inline-block; */
+    }
+}
+@media (max-width: 660px) {
+     div#headoptions {
+         /* width: calc(100% - 327px); */
+    }
+}
+@media (max-width: 481px) {
+    div#headoptions {
+        /* width: calc(100% - 101px); */
+    }
+    form#searchform {
+        width: 25px;
+        white-space: nowrap;
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+    #searchinputholder {
+        display: none;
+    }
+    body.expandbars #headoptions div {
+        /* width: 20%; */
+    }
+}
+@media (min-width: 481px) {
+    div#expandsearch {
+        /* display: none; */
+    }
+    div#searchinputholder {
+        /* width: 237px; */
+        /* right: 55px; */
+        /* left: inherit; */
+    }
+	div#searchresults {
+		/* display: none; */
+	}
+}
+@media (max-width: 349px) {
+    body .form div span {
+        text-align: left;
+        width: 100%;
+    }
+    body .form input {
+        width: calc(100% - 20px);
+    }
+}
+@media (max-width: 390px) {
+    div#side {
+        width: 0%;
+    }
+    body #pages > div {
+        box-shadow: none;
+    }
+    div#relpages {
+        width: 100%;
+    }
+    .closeRelBar {
+        display: none
+    }
+    div#relpage {
+        width: 100%;
+    }
+    div#uibar {
+        width: 100%;
+        top: 0px;
+    }
+    body .col_1 .postpicbox {
+        background-position: 100% 50%;
+    }
+    body .postsbar .postbox {
+    width: 176px;
+    }
+    body .boxview h2 {
+        font-size: 14px;
+    }
+    #sitespage > span {
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    body div#pages {
+        padding: 0px;
+        width: 100% !important;
+    }
+    .col_3 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+}

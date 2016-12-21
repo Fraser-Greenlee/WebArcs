@@ -1,0 +1,12 @@
+<a href="link/{id}" target="_blank" onmouseup="link('{url}',{id})" class="{{imgsrc} [hasimg]} postbox {multibar} {cols} {{frominfo} [hasfrombar]} {fromcolor} {bigtext}" id="postbox_{id}" data-title="{title}" data-date="{date}" data-clickcount="{clickcount}" data-like="{likec}" data-dislike="{dislikec}" data-site-name="{hubname}" data-site-id="{pageid}" data-site-url="{huburl}" data-comments="{comments}">
+	{{frominfo} [
+		<span class="feedbar" id="feedbardata{hubid}" onclick="stopPropagation(event);return false;" onmouseup="openSite(event,{hubid},'{hubname}'); return false" data-name="{hubname}" data-id="{hubid}">
+	    	<span class="nameholder"><img src="http://www.google.com/s2/favicons?domain_url={huburl}">{hubname}</span>
+	    	<button id="sub_{hubid}" class="subscribe {subscribe}" onmouseup="subscribe({hubid},event); return false">{subscribe}</button>
+	    </span>
+	]}
+	{{imgsrc} [<div class="postpicbox"><span class="helper"></span><img src="{imgsrc}"></div>]}
+	<div class="titleholder">
+		<h2 id="postTitle_{id}">{title}</h2>
+	</div>
+</a>

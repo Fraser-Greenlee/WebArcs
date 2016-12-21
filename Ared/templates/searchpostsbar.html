@@ -1,0 +1,9 @@
+<div data-loadposts="True" data-url="{huburl}" class="feedpostsbar {{domain in twitter.com,reddit.com} [contentview]} {domain}" id="{hubid}">
+    <span class="feedbar" id="feedbardata{hubid}" onclick="openFromUrl(event,'{hubid}','{hubname}')" data-name="{hubname}" data-id="{hubid}">
+    	<span class="nameholder"><img src="http://www.google.com/s2/favicons?domain_url={huburl}">{hubname}</span>
+		<button id="sub_{hubid}" class="subscribe Subscribe" onclick="subscribe('{huburl}')">Subscribe</button>
+	</span>
+    <div class="postsbar">
+		{posts}
+    </div>
+</div>

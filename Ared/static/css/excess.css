@@ -1,0 +1,117 @@
+body .postsbar .postbox .postpicbox {
+}
+
+
+#relatedposts .postbox {
+    /* border-right: none; */
+    /* background-color: #fff; */
+    /* height: 113px; */
+}
+
+#uibar.active {
+    /* box-shadow: 0px 0px 2px rgba(0,0,0,0.8); */
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.closeRelBar {
+    padding: 10px;
+    background-color: rgba(214, 214, 214, 0.83);
+    position: fixed;
+    left: 271px;
+    top: 1px;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.closeRelBar:hover {
+    box-shadow: inset 0px 0px 0px 11px rgba(0, 0, 0, 0.1);
+}
+
+
+#pages .active {
+    display: inline-block;
+}
+
+div#scrollericon {
+    position: fixed;
+    padding: 22px;
+    background-color: #2B9BFD;
+    right: -21px;
+    top: 50px;
+    z-index: 3;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+    height: calc(100vh - 100px);
+    border-radius: 23px;
+}
+
+button.off {
+    box-shadow: inset 0px 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+div#filterseg {background-color: #fff;width: 100%;z-index: 0;text-align: center;height: 51px;overflow: hidden;margin-top: 53px;text-align: center;overflow-x: scroll;-webkit-overflow-scrolling: touch;display: none;}
+
+.filter {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    vertical-align: top;
+    /* width: 62px; */
+}
+
+.filter span {
+    display: block;
+    font-size: 13px;
+    margin-top: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.filter.selected {
+    background-color: #f1f1f1;
+}
+
+div#shadecontainer {
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+    position: absolute;
+    width: 100%;
+    /* background-color: rgb(0, 147, 255); */
+    background-color: #ffffff;
+}
+
+div#pages {
+    /* margin-top: 110px; */
+}
+
+#filterbar.off {
+    top: -8px;
+}
+
+
+div:not(.postsbar) > .postbox:not(.hasfrombar) .titleholder {
+    height: 128px;
+    line-height: 116px;
+    margin: 10px;
+    padding: 0px;
+    width: initial;
+    height: initial;
+}
+
+div#searchform {
+    position: fixed;
+    top: 44px;
+    background-color: #fff;
+    width: 100%;
+    height: 44px;
+    z-index: 4;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-top: 1px solid rgb(217, 217, 217);
+}

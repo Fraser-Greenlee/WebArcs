@@ -1,0 +1,9 @@
+<div class="feedpostsbar {{domain in twitter.com,reddit.com} [contentview]} {domain}" id="{hubid}">
+    <span class="feedbar" id="feedbardata{hubid}" onclick="openSite(event,{hubid},'{hubname}')" data-name="{hubname}" data-id="{hubid}">
+    	<span class="nameholder"><img src="http://www.google.com/s2/favicons?domain_url={huburl}">{hubname}</span>
+    	{{subscribe} [<button id="sub_{hubid}" class="subscribe {subscribe}" onclick="subscribe({hubid})">{subscribe}</button>]}
+    </span>
+    <div class="postsbar">
+		{posts}
+    </div>
+</div>

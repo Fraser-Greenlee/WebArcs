@@ -1,0 +1,31 @@
+
+# just scraper
+
+gcloud preview app deploy ~/webarcs/scraper/app.yaml --stop-previous-version
+
+
+# just client
+
+gcloud preview app deploy ~/webarcs/client/app.yaml --stop-previous-version
+
+
+# for cron jobs
+
+gcloud preview app deploy cron.yaml
+
+
+
+# update js
+	# from client
+	python compiler.py
+
+
+=====
+
+Test locally
+
+cd client
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+python main.py

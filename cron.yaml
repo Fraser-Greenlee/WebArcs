@@ -1,0 +1,10 @@
+cron:
+- description: check feeds
+  url: /checkers/checkfeed
+  target: scraper
+  schedule: every 2 mins
+
+- description: index html pages
+  url: /html/index_link
+  target: scraper
+  schedule: every 2 mins

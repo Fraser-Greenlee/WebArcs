@@ -1,0 +1,9 @@
+<div class="hubsearch"
+	{{id} [onclick="openSite(event,{id},'{name}');shadeOff(true)" data-id="{id}" data-name="{name}" data-hueangle="{hueangle}"]}
+	{{add} [onclick="OpenInNewTab('{url}')"]}
+>
+	<h1>{name}</h1>
+	<span>{url}</span>
+	{{subscribe} [<button class="subscribe" onclick="subscribe({id})" id="sub_{id}">{subscribe}</button>]}
+	{{add} [<button class="add" onclick="addnewsearchfeed(this)" data-url="{rssurl}">Add</button>]}
+</div>

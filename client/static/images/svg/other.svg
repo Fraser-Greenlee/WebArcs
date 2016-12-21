@@ -1,0 +1,15 @@
+<svg width="178px" height="269px" viewBox="2089 17 178 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="other" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(2089.000000, 35.000000)">
+        <path d="M89.5,141 C107.126534,141 123.24221,134.531248 135.602568,123.838204 C150.545581,110.910883 160,91.8095406 160,70.5 C160,56.0446952 155.64948,42.6055088 148.186361,31.420362 C135.547202,12.4777655 113.98077,0 89.5,0 C50.5639251,0 19,35.25 19,70.5 C19,105.75 50.5639251,141 89.5,141 Z" id="Oval-4" stroke="#5F5F5F" stroke-width="35"></path>
+        <path d="M91.5,251 C101.164983,251 109,243.164983 109,233.5 C109,223.835017 101.164983,216 91.5,216 C81.8350169,216 74,223.835017 74,233.5 C74,243.164983 81.8350169,251 91.5,251 Z" id="Oval-5" fill="#5F5F5F"></path>
+        <circle id="Oval-5" fill="#5F5F5F" cx="90" cy="188.5" r="17.5"></circle>
+        <polygon id="Rectangle-12" fill="#FFFFFF" points="0 32 20 19 47 40 82.5 32 82.5 158.5 0 158.5"></polygon>
+        <path d="M90,143 L90,171.5" id="Line" stroke="#5F5F5F" stroke-width="35" stroke-linecap="square"></path>
+        <rect id="Rectangle-12" fill="#FFFFFF" x="48" y="105" width="43" height="36"></rect>
+        <circle id="Oval-5" fill="#5F5F5F" cx="90" cy="140.940002" r="17.5"></circle>
+        <circle id="Oval-5" fill="#5F5F5F" cx="33.25" cy="29.5" r="17.5"></circle>
+    </g>
+</svg>

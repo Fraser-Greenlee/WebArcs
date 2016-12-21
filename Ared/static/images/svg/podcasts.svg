@@ -1,0 +1,24 @@
+
+<svg width="192px" height="192px" viewBox="632 52 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="92" cy="93" r="36"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-45" y="-45" width="162" height="162">
+            <rect x="11" y="12" width="162" height="162" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="podcasts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(636.000000, 55.000000)">
+        <g id="Oval-1">
+            <use stroke="#5F5F5F" mask="url(#mask-2)" stroke-width="90" xlink:href="#path-1"></use>
+            <use stroke="#FFFFFF" stroke-width="30" xlink:href="#path-1"></use>
+        </g>
+        <rect id="Rectangle-10" fill="#FFFFFF" x="0" y="19" width="180" height="86"></rect>
+        <path d="M8,96 L13,99 C13,99 12.5,102 12.5,105 C12.5,108 13,111 13,111 L8,117 L8,96 Z" id="Rectangle-13" fill="#FFFFFF"></path>
+        <ellipse id="Oval-9" fill="#5F5F5F" cx="27.1500244" cy="104.949997" rx="15.25" ry="15.25"></ellipse>
+        <rect id="Rectangle-9" fill="#5F5F5F" x="56" y="0" width="72" height="129" rx="36"></rect>
+        <ellipse id="Oval-9" fill="#5F5F5F" cx="156.840027" cy="105" rx="15.25" ry="15.25"></ellipse>
+        <path d="M171,96 L176,99 C176,99 175.5,102 175.5,105 C175.5,108 176,111 176,111 L171,117 L171,96 Z" id="Rectangle-13" fill="#FFFFFF" transform="translate(173.500000, 106.500000) scale(-1, 1) translate(-173.500000, -106.500000) "></path>
+    </g>
+</svg>
