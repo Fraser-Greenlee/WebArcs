@@ -1,5 +1,5 @@
 # WebArcs
 
 * Web app that let users subscribe to and find RSS feeds.
-* Made using Flask and Postgres
+* Made using web.py and Postgres
 * Hosted on Heroku.
